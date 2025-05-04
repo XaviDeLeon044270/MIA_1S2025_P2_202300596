@@ -1,0 +1,342 @@
+digraph G {
+        rankdir=LR;
+        node [shape=plaintext];
+        graph [bgcolor="#f5f5f5", fontname="Arial", fontsize=12];
+        edge [color="#666666", arrowsize=0.8];
+        
+    inode0 [label=<
+            <table border="0" cellborder="1" cellspacing="0" cellpadding="8" style="rounded" bgcolor="#ecf0f1" gradientangle="315">
+                <!-- Encabezado -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial" point-size="14"><b>INODO 0</b></font>
+                    </td>
+                </tr>
+                
+                <!-- Datos del inodo -->
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>UID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>GID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font color="white"><b>Tamaño</b></font></td>
+                    <td bgcolor="#ffffff" border="0">0 bytes</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font color="white"><b>Último Acceso</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font color="white"><b>Creación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font color="white"><b>Modificación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>Tipo</b></font></td>
+                    <td bgcolor="#ffffff" border="0">0</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>Permisos</b></font></td>
+                    <td bgcolor="#ffffff" border="0">777</td>
+                </tr>
+                
+                <!-- Encabezado de bloques -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES DIRECTOS</b></font>
+                    </td>
+                </tr>
+            <tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 1</b></font></td>
+                <td bgcolor="#ffffff" border="0">0</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 2</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 3</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 4</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 5</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 6</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 7</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 8</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 9</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 10</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 11</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 12</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr>
+                <!-- Encabezado de bloques indirectos -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES INDIRECTOS</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font><b>Indirecto</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font><b>Indirecto Doble</b></font></td>
+                    <td bgcolor="#ecf0f1" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font><b>Indirecto Triple</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+            </table>>];
+        
+                inode0 -> inode1 [
+                    color="#3498db",
+                    penwidth=1.5,
+                    arrowhead=open,
+                    arrowsize=0.8,
+                    style="dashed"
+                ];
+            inode1 [label=<
+            <table border="0" cellborder="1" cellspacing="0" cellpadding="8" style="rounded" bgcolor="#ecf0f1" gradientangle="315">
+                <!-- Encabezado -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial" point-size="14"><b>INODO 1</b></font>
+                    </td>
+                </tr>
+                
+                <!-- Datos del inodo -->
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>UID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>GID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font color="white"><b>Tamaño</b></font></td>
+                    <td bgcolor="#ffffff" border="0">27 bytes</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font color="white"><b>Último Acceso</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font color="white"><b>Creación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font color="white"><b>Modificación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>Tipo</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>Permisos</b></font></td>
+                    <td bgcolor="#ffffff" border="0">777</td>
+                </tr>
+                
+                <!-- Encabezado de bloques -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES DIRECTOS</b></font>
+                    </td>
+                </tr>
+            <tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 1</b></font></td>
+                <td bgcolor="#ffffff" border="0">1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 2</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 3</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 4</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 5</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 6</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 7</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 8</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 9</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 10</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 11</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 12</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr>
+                <!-- Encabezado de bloques indirectos -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES INDIRECTOS</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font><b>Indirecto</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font><b>Indirecto Doble</b></font></td>
+                    <td bgcolor="#ecf0f1" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font><b>Indirecto Triple</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+            </table>>];
+        
+                inode1 -> inode2 [
+                    color="#3498db",
+                    penwidth=1.5,
+                    arrowhead=open,
+                    arrowsize=0.8,
+                    style="dashed"
+                ];
+            inode2 [label=<
+            <table border="0" cellborder="1" cellspacing="0" cellpadding="8" style="rounded" bgcolor="#ecf0f1" gradientangle="315">
+                <!-- Encabezado -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial" point-size="14"><b>INODO 2</b></font>
+                    </td>
+                </tr>
+                
+                <!-- Datos del inodo -->
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>UID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>GID</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font color="white"><b>Tamaño</b></font></td>
+                    <td bgcolor="#ffffff" border="0">0 bytes</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font color="white"><b>Último Acceso</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font color="white"><b>Creación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font color="white"><b>Modificación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>Tipo</b></font></td>
+                    <td bgcolor="#ffffff" border="0">0</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>Permisos</b></font></td>
+                    <td bgcolor="#ffffff" border="0">664</td>
+                </tr>
+                
+                <!-- Encabezado de bloques -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES DIRECTOS</b></font>
+                    </td>
+                </tr>
+            <tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 1</b></font></td>
+                <td bgcolor="#ffffff" border="0">2</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 2</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 3</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 4</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 5</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 6</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 7</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 8</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 9</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 10</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 11</b></font></td>
+                <td bgcolor="#ffffff" border="0">-1</td>
+            </tr><tr>
+                <td bgcolor="#2ecc71" border="0"><font><b>Bloque 12</b></font></td>
+                <td bgcolor="#ecf0f1" border="0">-1</td>
+            </tr>
+                <!-- Encabezado de bloques indirectos -->
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial"><b>BLOQUES INDIRECTOS</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f39c12" border="0"><font><b>Indirecto</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#9b59b6" border="0"><font><b>Indirecto Doble</b></font></td>
+                    <td bgcolor="#ecf0f1" border="0">-1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#1abc9c" border="0"><font><b>Indirecto Triple</b></font></td>
+                    <td bgcolor="#ffffff" border="0">-1</td>
+                </tr>
+            </table>>];
+        
+        /* Estilos globales para los nodos */
+        node [fontname="Arial", fontsize=10, shape=box, style="rounded,filled", 
+              fillcolor="#ffffff", color="#2c3e50", penwidth=1.5];
+    }

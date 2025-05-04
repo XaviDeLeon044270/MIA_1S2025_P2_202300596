@@ -1,0 +1,21 @@
+mkdisk -size=5 -unit=M -fit=WF -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/disks/DiscoLab.mia"
+
+fdisk -size=1 -type=P -unit=M -fit=BF -name="Particion1" -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/disks/DiscoLab.mia"
+
+mount -name="Particion1" -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/disks/DiscoLab.mia"
+
+mkfs -id=961A
+
+login -user=root -pass=123 -id=961A
+
+mkdir -path="/home"
+
+logout
+
+mkdir -path="/home/usac"
+mkdir -path="/home/work"
+mkdir -path="/home/usac/mia"
+
+rep -id=961A -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/output/report_mbr.png" -name=mbr
+rep -id=961A -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/output/report_inode.png" -name=inode
+rep -id=961A -path="/home/xavi-13/Escritorio/MIA_1S2025_P1_202300596/output/report_bm_inode.txt" -name=bm_inode

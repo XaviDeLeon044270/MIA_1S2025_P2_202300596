@@ -1,0 +1,57 @@
+digraph G {
+        node [shape=plaintext];
+        graph [bgcolor="#f5f5f5", fontname="Arial", fontsize=12];
+        edge [color="#666666", arrowsize=0.8];
+        
+        tabla [label=<
+            <table border="0" cellborder="1" cellspacing="0" cellpadding="8" style="rounded" bgcolor="#ecf0f1">
+                <tr>
+                    <td colspan="2" bgcolor="#2c3e50" style="rounded" border="0">
+                        <font color="white" face="Arial" point-size="16"><b>REPORTE MBR</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font color="white"><b>Tamaño del MBR</b></font></td>
+                    <td bgcolor="#ffffff" border="0">5242880 bytes</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font color="white"><b>Fecha de Creación</b></font></td>
+                    <td bgcolor="#ffffff" border="0">2025-04-03 12:48:32</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font color="white"><b>Firma del Disco</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1218364732</td>
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="#9b59b6" style="rounded" border="0">
+                        <font color="white" face="Arial" point-size="14"><b>PARTICIÓN 1</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font><b>Estado</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font><b>Tipo</b></font></td>
+                    <td bgcolor="#ffffff" border="0">P</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font><b>Ajuste</b></font></td>
+                    <td bgcolor="#ffffff" border="0">B</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#3498db" border="0"><font><b>Inicio</b></font></td>
+                    <td bgcolor="#ffffff" border="0">153</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#e74c3c" border="0"><font><b>Tamaño</b></font></td>
+                    <td bgcolor="#ffffff" border="0">1048576 bytes</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#2ecc71" border="0"><font><b>Nombre</b></font></td>
+                    <td bgcolor="#ffffff" border="0">Particion1</td>
+                </tr></table>>];
+        
+        node [fontname="Arial", fontsize=10, shape=box, style="rounded,filled", 
+              fillcolor="#ffffff", color="#2c3e50", penwidth=1.5];
+    }
